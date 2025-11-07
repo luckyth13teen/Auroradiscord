@@ -25,3 +25,6 @@ client.on("messageCreate", async (msg) => {
 });
 
 client.login(process.env.BOT_TOKEN);
+
+// keep Render free tier alive
+http.createServer((req, res) => res.end("OK")).listen(process.env.PORT || 10000);
