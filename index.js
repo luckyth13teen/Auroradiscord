@@ -14,7 +14,7 @@ const client = new Client({
   partials: [Partials.Channel],
 });
 
-const OWNER_ID = "luckyth13teen";
+const OWNER_ID = "717043530488610927";
 const TARGET_CHANNEL = "livefeed-dsn13";
 
 client.once("ready", () => console.log(`Online as ${client.user.tag}`));
