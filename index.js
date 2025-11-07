@@ -1,3 +1,5 @@
+import http from "http";
+
 import { Client, GatewayIntentBits, Partials } from "discord.js";
 import dotenv from "dotenv";
 dotenv.config();
