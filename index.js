@@ -15,7 +15,7 @@ const client = new Client({
 });
 
 const OWNER_ID = "717043530488610927";
-const TARGET_CHANNEL = "livefeed-dsn13";
+const TARGET_CHANNEL = "1436473532677885972";
 
 client.once("ready", () => console.log(`Online as ${client.user.tag}`));
 
